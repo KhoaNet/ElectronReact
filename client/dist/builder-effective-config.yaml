@@ -1,0 +1,6 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.youtube.tutorial.ytapp
+productName: Chat App
+electronVersion: 1.8.8

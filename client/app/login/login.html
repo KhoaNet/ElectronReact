@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CHATIO</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./login.css">
+
+</head>
+
+<body>
+    <div class="main-content">
+        <header id="titlebar">
+            <div id="drag-region">
+                <div id="window-title">
+                    <span>ChatIo</span>
+                </div>
+                <div id="window-controls">
+                    <div class="button" id="min-button">
+                        <span>&#xE921;</span>
+                    </div>
+                    <div class="button" id="max-button">
+                        <span>&#xE922;</span>
+                    </div>
+                    <div class="button" id="restore-button">
+                        <span>&#xE923;</span>
+                    </div>
+                    <div class="button" id="close-button">
+                        <span>&#xE8BB;</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="test"></div>
+
+        <div class="wrapper fadeInDown">
+            <img style="text-align:center" src="messages_5122x.png" width="200px" height="200px">
+
+            <div id="logreg-forms">
+                <form class="form-signin" action="#" method="GET" enctype="multipart/form-data">
+                    <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"><b>CHATIO</b></h1>
+                    <input type="text" id="userName" class="form-control" placeholder="Tên đăng nhập" required
+                        autofocus="">
+                    <input type="password" id="userPass" class="form-control" placeholder="Mật khẩu" required>
+
+                    <button class="btn btn-success btn-block" type="submit" id="btn_signin"><i
+                            class="fas fa-sign-in-alt"></i> Đăng Nhập</button>
+                    <a href="#" id="forgot_pswd">Forgot password?</a>
+                    <hr>
+                    <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i
+                            class="fas fa-user-plus"></i> Tạo tài khoản mới</button>
+                </form>
+
+                <form action="/reset/password/" class="form-reset">
+                    <input type="email" id="resetEmail" class="form-control" placeholder="Email address" required=""
+                        autofocus="">
+                    <button class="btn btn-primary btn-block" type="submit">Reset Password</button>
+                    <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i> Back</a>
+                </form>
+
+                <form class="form-signup" action="#" method="GET" enctype="multipart/form-data">
+                    <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"><b>Đăng ký</b></h1>
+                    <input type="text" id="name" class="form-control" placeholder="Tên đăng nhập" required=""
+                        autofocus="" required>
+                    <input type="password" id="pass" class="form-control" placeholder="Mật khẩu" required autofocus="">
+                    <input type="password" id="rePass" class="form-control" placeholder="Nhập lại mật khẩu" required
+                        autofocus="">
+                    <input type="email" id="email" class="form-control" placeholder="Email đăng kí" required
+                        autofocus="" required>
+
+                    <!-- <select id="sex" class="form-control">
+                        <option value="Male">Nam</option>
+                        <option value="Famale">Nữ</option>
+                        <option value="Orther">Khác</option>
+                    </select>
+                    <input type="file" class="form-control" id="avatar" accept="image/*" onchange="getFiles()" /> -->
+                    
+                    <!-- <textarea rows="4" cols="50" class="form-control" placeholder="Nhập địa chỉ..." form="form-signup"></textarea> -->
+                    <button class="btn btn-primary btn-block" type="submit" id="btn_signup"><i
+                            class="fas fa-user-plus"></i> Đăng ký</button>
+                    <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Back</a>
+                </form>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./login.js"></script>
+</body>
+
+</html>

@@ -39,7 +39,7 @@
     "electron-devtools-installer": "^2.2.4",
     "electron-react-devtools": "^0.5.3",
     "electron-redux-devtools": "^0.3.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "marked": "^0.6.3",
     "moment": "^2.24.0",
     "react": "^16.2.0",

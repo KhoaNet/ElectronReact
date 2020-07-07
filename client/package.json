@@ -15,7 +15,7 @@
     "babel-plugin-transform-remove-strict-mode": "^0.0.2",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.10",
-    "electron": "^1.8.2",
+    "electron": "^7.2.4",
     "electron-download-manager": "^2.1.2",
     "electron-reload": "^1.2.2",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
